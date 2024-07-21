@@ -1,0 +1,57 @@
+.footer {
+    background-color: #fff;
+    color: #333;
+    padding: 40px 0 0;
+    position: relative;
+}
+
+.waves {
+    position: absolute;
+    bottom: -40px;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    /* Wave thingies seems to be a image, will modify it later */
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.quicklinks ul,
+.contacts ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.quicklinks a,
+.contacts a {
+    color: #333;
+    text-decoration: none;
+}
+
+.social a {
+    margin-right: 10px;
+    color: #333;
+    font-size: 1.2rem;
+}
+
+.download img {
+    max-width: 100px;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px 0;
+    /* background-color: #ff6b6b; */
+    color: white;
+}

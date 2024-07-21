@@ -14,7 +14,12 @@ const blogSchema = new mongoose.Schema({
         type: mongoose.Schema.Types.Mixed,
         required: true
     },
-    date: { type: Date, default: Date.now }
+    date: { type: Date, default: Date.now },
+    image: {
+        type: String,
+        required: true,
+        default: "404_1.jpg"
+    }
 });
 
 // auto increment id before saving 

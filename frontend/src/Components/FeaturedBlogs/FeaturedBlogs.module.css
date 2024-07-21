@@ -1,0 +1,32 @@
+.featuredBlogs {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.blogCard {
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.blogCard img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.blogInfo {
+    padding: 20px;
+}
+
+.author {
+    color: #888;
+    font-size: 0.9rem;
+}
+
+.readMore {
+    color: #ff6b6b;
+    text-decoration: none;
+}

@@ -1,5 +1,6 @@
 const express = require("express")
 const mongoose = require("mongoose")
+const cors = require("cors")
 const Blog = require('./db.js')
 
 require('dotenv').config();
@@ -9,6 +10,7 @@ const port = process.env.PORT || 3000;
 const db_url = process.env.DB_CONNECTION_URL;
 
 app.use(express.json());
+app.use(cors());
 mongoose.connect(db_url);
 
 // Get total blog count
