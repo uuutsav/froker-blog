@@ -33,3 +33,12 @@ typings/
 
 # Yarn Integrity file
 .yarn-integrity
+
+# Environment variables
+.env
+
+# temporary files
+temp.js
+temp.jsx
+temp.html
+temp.css
